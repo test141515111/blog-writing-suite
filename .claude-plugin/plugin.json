@@ -1,0 +1,69 @@
+{
+  "name": "blog-writing-suite",
+  "description": "ブログ記事執筆のための統合プラグイン。3つのエージェント（専門家アナリスト、技術ライター、信頼性強化担当）と3つのスキル（Markdown整形、記事生成、SEO最適化）を含みます。",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Code User",
+    "email": "your-email@example.com",
+    "url": "https://github.com/YOUR_USERNAME"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/blog-writing-suite.git"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/blog-writing-suite#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/blog-writing-suite/issues"
+  },
+  "keywords": [
+    "blog",
+    "writing",
+    "content",
+    "seo",
+    "markdown",
+    "agent",
+    "skill",
+    "claude-code",
+    "plugin"
+  ],
+  "engines": {
+    "claudeCode": ">=1.0.0"
+  },
+  "components": {
+    "agents": [
+      {
+        "name": "expert-analyst",
+        "description": "テーマ分析とアウトライン設計の専門家",
+        "file": "agents/expert-analyst.md"
+      },
+      {
+        "name": "technical-writer",
+        "description": "記事本文執筆の専門家",
+        "file": "agents/technical-writer.md"
+      },
+      {
+        "name": "credibility-enhancer",
+        "description": "信頼性強化の専門家",
+        "file": "agents/credibility-enhancer.md"
+      }
+    ],
+    "skills": [
+      {
+        "name": "markdown-formatter",
+        "description": "Markdownファイルの整形",
+        "file": "skills/markdown-formatter/SKILL.md"
+      },
+      {
+        "name": "blog-article-generator",
+        "description": "ブログ記事の体系的生成",
+        "file": "skills/blog-article-generator/SKILL.md"
+      },
+      {
+        "name": "seo-optimizer",
+        "description": "SEO最適化",
+        "file": "skills/seo-optimizer/SKILL.md"
+      }
+    ]
+  }
+}
