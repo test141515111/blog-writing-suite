@@ -50,7 +50,7 @@
 
 GitHubに表示される以下のURLをコピー：
 ```
-https://github.com/YOUR_USERNAME/blog-writing-suite.git
+https://github.com/test141515111/blog-writing-suite.git
 ```
 
 ---
@@ -83,7 +83,7 @@ git commit -m "feat: initial release v1.0.0
 
 ```bash
 # GitHubリポジトリをリモートに追加
-git remote add origin https://github.com/YOUR_USERNAME/blog-writing-suite.git
+git remote add origin https://github.com/test141515111/blog-writing-suite.git
 
 # リモートの確認
 git remote -v
@@ -142,12 +142,12 @@ git push origin v1.0.0
      ### インストール
 
      \`\`\`bash
-     claude plugin install https://github.com/YOUR_USERNAME/blog-writing-suite
+     claude plugin install https://github.com/test141515111/blog-writing-suite
      \`\`\`
 
      ### ドキュメント
 
-     詳細な使用方法は[README.md](https://github.com/YOUR_USERNAME/blog-writing-suite/blob/main/README.md)をご覧ください。
+     詳細な使用方法は[README.md](https://github.com/test141515111/blog-writing-suite/blob/main/README.md)をご覧ください。
      ```
 4. 「Publish release」をクリック
 
@@ -160,7 +160,7 @@ git push origin v1.0.0
 ```bash
 # plugin.jsonのrepository URLを実際のURLに更新
 cd .claude-plugin
-# エディタでplugin.jsonを開き、YOUR_USERNAMEを実際のユーザー名に置換
+# エディタでplugin.jsonを開き、test141515111を実際のユーザー名に置換
 ```
 
 ### ステップ2: Marketplace登録申請
@@ -169,7 +169,7 @@ Claude Code公式に連絡し、プラグインの登録を申請します。
 
 **申請に必要な情報:**
 - プラグイン名: `blog-writing-suite`
-- GitHubリポジトリURL: `https://github.com/YOUR_USERNAME/blog-writing-suite`
+- GitHubリポジトリURL: `https://github.com/test141515111/blog-writing-suite`
 - バージョン: `1.0.0`
 - 短い説明: ブログ記事執筆のための統合プラグイン
 - カテゴリ: Content Creation, Productivity
@@ -259,14 +259,14 @@ git push origin v2.0.0
 git remote remove origin
 
 # 再度追加
-git remote add origin https://github.com/YOUR_USERNAME/blog-writing-suite.git
+git remote add origin https://github.com/test141515111/blog-writing-suite.git
 ```
 
 ### Q: push時に認証エラー
 
 ```bash
 # Personal Access Tokenを使用
-git remote set-url origin https://YOUR_USERNAME:YOUR_TOKEN@github.com/YOUR_USERNAME/blog-writing-suite.git
+git remote set-url origin https://test141515111:YOUR_TOKEN@github.com/test141515111/blog-writing-suite.git
 ```
 
 ### Q: plugin.jsonのURL更新を忘れた
@@ -285,7 +285,7 @@ git push origin main
 
 公開前に以下を確認してください：
 
-- [ ] README.mdのYOUR_USERNAMEを実際のユーザー名に置換
+- [ ] README.mdのtest141515111を実際のユーザー名に置換
 - [ ] plugin.jsonのURLを実際のURLに置換
 - [ ] CHANGELOG.mdが最新
 - [ ] すべてのリンクが正しく機能する

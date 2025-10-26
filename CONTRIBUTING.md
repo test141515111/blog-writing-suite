@@ -44,7 +44,7 @@
 # GitHubでForkボタンをクリック
 
 # 2. ローカルにクローン
-git clone https://github.com/YOUR_USERNAME/blog-writing-suite.git
+git clone https://github.com/test141515111/blog-writing-suite.git
 cd blog-writing-suite
 
 # 3. 上流リポジトリを追加

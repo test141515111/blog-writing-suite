@@ -68,5 +68,5 @@ hooks, scripts, commands, mcpの各ディレクトリを用意し、将来の機
 
 ---
 
-[Unreleased]: https://github.com/YOUR_USERNAME/blog-writing-suite/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/YOUR_USERNAME/blog-writing-suite/releases/tag/v1.0.0
+[Unreleased]: https://github.com/test141515111/blog-writing-suite/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/test141515111/blog-writing-suite/releases/tag/v1.0.0

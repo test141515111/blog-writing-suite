@@ -27,17 +27,17 @@
 
 ```bash
 # Claude Code CLIでインストール
-claude plugin install https://github.com/YOUR_USERNAME/blog-writing-suite
+claude plugin install https://github.com/test141515111/blog-writing-suite
 
 # または手動でクローン
-git clone https://github.com/YOUR_USERNAME/blog-writing-suite.git ~/.claude/plugins/blog-writing-suite
+git clone https://github.com/test141515111/blog-writing-suite.git ~/.claude/plugins/blog-writing-suite
 ```
 
 ### ローカル開発
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/YOUR_USERNAME/blog-writing-suite.git
+git clone https://github.com/test141515111/blog-writing-suite.git
 cd blog-writing-suite
 
 # プロジェクトの.claude/pluginsにシンボリックリンクを作成
@@ -221,8 +221,8 @@ blog-writing-suite/
 
 ## 📮 サポート・バグ報告
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/blog-writing-suite/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/blog-writing-suite/discussions)
+- **Issues**: [GitHub Issues](https://github.com/test141515111/blog-writing-suite/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/test141515111/blog-writing-suite/discussions)
 - **Email**: your-email@example.com
 
 ---
